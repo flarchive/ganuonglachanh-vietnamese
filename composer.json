@@ -1,0 +1,32 @@
+{
+    "name": "ganuonglachanh/vietnamese",
+    "type": "flarum-extension",
+    "description": "Vietnam language pack for Flarum. Updated by GaNuongLaChanh",
+    "keywords": ["locale", "vietnam", "vietnamese"],
+    "license": "MIT",
+    "homepage": "https://github.com/ganuonglachanh/flarum-ext-vietnamese",
+    "authors": [
+        {
+            "name": "GaNuongLaChanh",
+            "email": "ganuonglachanh@outlook.com",
+            "homepage": "https://github.com/ganuonglachanh/"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.6"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Tiếng việt",
+            "icon": {
+                "name": "star",
+                "backgroundColor": "#FF0000",
+                "color": "#FFFF00"
+            }
+        },
+        "flarum-locale": {
+            "code": "vi",
+            "title": "Tiếng việt"
+        }
+    }
+}
